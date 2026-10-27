@@ -2,6 +2,8 @@ name: Validate thesis research utilities
 
 on:
   push:
+    paths-ignore:
+      - 'staging/**'
   pull_request:
 
 jobs:
