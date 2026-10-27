@@ -16,4 +16,4 @@ jobs:
           python-version: '3.11'
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python examples/synthetic_smoke.py
+      - run: PYTHONPATH=. python examples/synthetic_smoke.py
