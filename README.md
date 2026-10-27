@@ -57,12 +57,6 @@ In the thesis sample this produced **122 trades**, **55% winners**, an **average
 
 These figures are retained as an exploratory historical result. They were **not** treated as repeatable or as proof of a profitable trading strategy.
 
-## Additional VAR/VECM diagnostic
-
-The conventional rolling Granger results were materially more sensitive to window length and lag specification. The supporting heatmap is retained here for contrast:
-
-![VAR VECM rolling causality heatmap](docs/figures/var_vecm_causality_heatmap.png)
-
 ## Repository structure
 
 ```text
